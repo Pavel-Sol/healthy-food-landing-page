@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Полезная еда</title>
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__body">
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li>
+              <a class="header__link" href="#">О нас</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Продукция</a>
+            </li>
+            <li class="stretched">
+              <a class="header__link" href="#">Помощь</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Войти</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Оформить заказ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <a class="header__logo" href="#">
+          <picture>
+            <source srcset="img/logo.webp" type="image/webp">
+            <img src="img/logo.png" alt="Логотип">
+          </picture>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-------------offer--------------->
+  <section class="offer">
+    <div class="offer__shadow">
+      <div class="container">
+        <h1 class="offer__title">Полезная еда за несколько минут</h1>
+        <p class="offer__subtitle">
+          Мы облегчаем ежедневное употребление фруктов и овощей, необходимых каждому!
+        </p>
+        <button class="offer__button main__btn">
+          Оформить заказ
+        </button>
+      </div>
+    </div>
+    <img class="wave" src="img/wave.svg" alt="">
+  </section>
+  <!-------------products--------------->
+  <section class="products">
+    <div class="container">
+      <h2 class="products__title">Множество витаминов. Волшебный вкус
+      </h2>
+      <ul class="products__list">
+        <li data-tab="smoothies" class="products__item active">
+          Смузи
+        </li>
+        <li data-tab="breakfasts" class="products__item">
+          Завтраки
+        </li>
+        <li data-tab="soups" class="products__item">
+          Супы
+        </li>
+        <li data-tab="bowls" class="products__item">
+          Боулы
+        </li>
+        <li data-tab="pastes" class="products__item">
+          Пасты
+        </li>
+      </ul>
+      <div class="products__slider__wrap">
+        <div class="slider__body smoothies">
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго </a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Клубника + Персик</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products__slider__wrap">
+        <div class="slider__body breakfasts hiden">
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго </a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Клубника + Персик</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products__slider__wrap">
+        <div class="slider__body soups hiden">
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго </a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Клубника + Персик</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products__slider__wrap">
+        <div class="slider__body bowls hiden">
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго </a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Клубника + Персик</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products__slider__wrap">
+        <div class="slider__body pastes hiden">
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго </a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies1.webp" type="image/webp">
+                  <img src="img/smoothies1.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Патайя + Манго</a>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item__content">
+              <div class="slider__item__img">
+                <picture>
+                  <source srcset="img/smoothies2.webp" type="image/webp">
+                  <img src="img/smoothies2.png" alt="Логотип">
+                </picture>
+              </div>
+              <a class="slider__item__title" href="#">Клубника + Персик</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- advantages -->
+  <section class="advantages">
+    <div class="container">
+      <div class="advantage__wrap">
+        <div class="advantage__desc">
+          <div class="advantage__desc__number">1</div>
+          <div class="advantage__desc__title">
+            Начинаем с заморозки
+          </div>
+          <div class="advantage__desc__text">
+            Замораживаем все ингредиенты, сохраняя полезные вещества на долгое время. Никаких добавок, только витамины и
+            польза!
+          </div>
+        </div>
+        <div class="advantage__img">
+          <picture>
+            <source srcset="img/desc1.webp" type="image/webp">
+            <img src="img/desc1.png" alt="Логотип">
+          </picture>
+        </div>
+      </div>
+      <div class="advantage__wrap">
+        <div class="advantage__desc advantage__desc__right">
+          <div class="advantage__desc__number">2</div>
+          <div class="advantage__desc__title">
+            Доставляем круглый год
+          </div>
+          <div class="advantage__desc__text">
+            Блюда доставляем в стаканчиках, которые удобно хранить и брать с собой. Для поддержания минусовой
+            температуры используем сухой лед
+          </div>
+        </div>
+        <div class="advantage__img">
+          <picture>
+            <source srcset="img/desc2.webp" type="image/webp">
+            <img src="img/desc2.png" alt="Логотип">
+          </picture>
+        </div>
+      </div>
+      <div class="advantage__wrap">
+        <div class="advantage__desc">
+          <div class="advantage__desc__number">3</div>
+          <div class="advantage__desc__title">
+            Быстро приготовить
+          </div>
+          <div class="advantage__desc__text">
+            Готовьте любое блюда за несколько минут. Нужен только блендер или микроволновая печь, немного воды или
+            молока.
+          </div>
+        </div>
+        <div class="advantage__img">
+          <picture>
+            <source srcset="img/desc3.webp" type="image/webp">
+            <img src="img/desc3.png" alt="Логотип">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- order -->
+  <section class="order">
+    <div class="container">
+      <h2 class="order__title">
+        Готовы питаться правильно каждый день?
+      </h2>
+      <button class="order__button main__btn">
+        Оформить заказ
+      </button>
+      <div class="order__text">
+        Стаканчик от 250 рублей
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="footer__contacts">
+          <div class="footer__contacts__title footer__title">
+            Контакты
+          </div>
+          <div class="footer__contacts__phone footer__item">
+            <a href="#">+7 (951) 213 421 23</a>
+          </div>
+          <div class="footer__contacts__email footer__item">
+            <a href="#">mealjoycontact@gmai.com</a>
+          </div>
+        </div>
+        <div class="footer__information">
+          <div class="footer__information__title footer__title">
+            Информация
+          </div>
+          <div class="footer__information__user-agreement footer__item">
+            <a href="#">Пользовательское соглашение</a>
+          </div>
+          <div class="footer__information__delivery footer__item">
+            <a href="#">Доставка/Оплата</a>
+          </div>
+        </div>
+        <form class="footer__form">
+          <div class="footer__form__text footer__item">
+            Подпишись на рассылку и получи стаканчик в подарок
+          </div>
+          <input class="footer__form__input" type="email" placeholder="Email">
+          <button class="footer__form__button">
+            Подписаться
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- ---------------jquery-3.4.1--------------->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <!-- ---------------slick--------------->
+  <script src="js/slick.min.js"></script>
+  <!-- --------------мой файл JS-------------------->
+  <script src="js/script.js"></script>
+  <!--------------- fontawesome ---------------->
+  <script src="https://kit.fontawesome.com/c5e7c95c4e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
