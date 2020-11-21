@@ -1,4 +1,4 @@
-[English](https://github.com/Pavel-Sol/Hungry-people-landing-page/blob/master/README.md) | [Russian](https://github.com/Pavel-Sol/Hungry-people-landing-page/blob/master/README-Ru.md)
+[English](https://github.com/Pavel-Sol/healthy-food-landing-page/blob/master/README.md) | [Russian](https://github.com/Pavel-Sol/healthy-food-landing-page/blob/master/README-RU.md)
 
 # Healthy-food :green_apple:
 
